@@ -49,7 +49,7 @@ type ExpiryDetail struct {
 	Duration  int64  `json:"duration"`
 }
 
-type InstallmentTermsDetail {
+type InstallmentTermsDetail struct {
 	Bni     []int8 `json:"bni,omitempty"`
 	Mandiri []int8 `json:"mandiri,omitempty"`
 	Cimb    []int8 `json:"cimb,omitempty"`
